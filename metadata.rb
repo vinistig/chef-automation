@@ -1,0 +1,11 @@
+name 'chef_breaking_machine'
+maintainer 'The Authors'
+maintainer_email 'you@example.com'
+license 'all_rights'
+description 'Installs/Configures chef_breaking_machine'
+long_description 'Installs/Configures chef_breaking_machine'
+version '0.1.0'
+
+#depends 'git'
+depends 'nvm'
+depends 'nginx'
