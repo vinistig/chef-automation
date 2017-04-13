@@ -24,13 +24,13 @@ end
 
 ######
 
-include_recipe 'nginx::repo'
+# include_recipe 'nginx::repo'
 
-package 'nginx' do
-  action :install
-end
+# package 'nginx' do
+#   action :install
+# end
 
-service 'nginx' do
-  supports status: true, restart: true, reload: true
-  action :enable
-end
+# service 'nginx' do
+#   supports status: true, restart: true, reload: true
+#   action :enable
+# end
