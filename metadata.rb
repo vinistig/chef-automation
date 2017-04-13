@@ -6,6 +6,6 @@ description 'Installs/Configures chef_breaking_machine'
 long_description 'Installs/Configures chef_breaking_machine'
 version '0.1.0'
 
-#depends 'git'
+depends 'git'
 depends 'nvm'
 depends 'nginx'
