@@ -8,6 +8,7 @@ git_client 'default' do
 	action :install
 end
 
+############
 
 include_recipe 'nvm'
 
@@ -19,4 +20,17 @@ end
 
 nvm_alias_default '7.8' do
 	action :create
+end
+
+######
+
+include_recipe 'nginx::repo'
+
+package 'nginx' do
+  action :install
+end
+
+service 'nginx' do
+  supports status: true, restart: true, reload: true
+  action :enable
 end
