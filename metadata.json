@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "git": ">= 0.0.0",
-    "nvm": ">= 0.0.0"
+    "nvm": ">= 0.0.0",
+    "nginx": ">=0.0.0"
   },
   "recommendations": {
   },
